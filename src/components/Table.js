@@ -1,7 +1,7 @@
 import React from "react";
 
 function Table({ plates, moneyLeft }) {
-  console.log(plates)
+
   // renders an empty plate for every element in the array
   const emptyPlates = plates.map((plate, index) => (
     <div key={index} className="empty-plate" style={{ top: -7 * index }} />
